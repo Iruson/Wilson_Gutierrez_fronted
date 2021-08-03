@@ -1,52 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <LINK REL=StyleSheet HREF="estilo.css">
+    <link rel=StyleSheet href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Inicio</title>
 </head>
 <body>
 
-<table align="center" width="100%" height="900px" border="1">
-<tr> <!-- Fila 1-->
-    <td  bgcolor="238EF8" align="Center"> <b><font></font></b> </td> 
-    <td colspan="3" bgcolor="238EF8"></td>
-</tr>
+<header class="container-fluid  bg-dark d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-3"> KAFELA: Él mejor café</p></div>
+</header>
 
-<tr height="10%" bgcolor="yellow"> <!-- Fila 2-->
-    <td bgcolor="gray"></td>
-    <td bgcolor="gray"></td>
-    <td bgcolor="yellow" colspan="2"></td>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5">Inicio</span>
+        </a>
+        <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5">Redes</span>
+        </a>
+        <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5">Localizanos</span>
+        </a>
+        <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5">Productos</span>
+        </a>
+        <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5">¿Quienes somos?</span>
+        </a>
+
+        <!-- Preguntar como enlazar elementos con otro en la misma pagina-->
+        
+        <a class="navbar-brand" href="#">
+            <img src="imagenes/fb.png" alt="facebook">
+            <span class="text-primary fs-5"></span>
+        </a>
+        <a class="navbar-brand" href="#">
+            <img src="imagenes/tw.png" alt="Twitter">
+            <span class="text-primary fs-5"></span>
+        </a>
+        <a class="navbar-brand" href="#">
+            <img src="imagenes/int.png" alt="Instagram">
+            <span class="text-primary fs-5"></span>
+        </a>
+      
+    </div>
+</nav>
+
+            <div class="col-sm-12">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+
+
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="imagenes/uno.jpg" alt="primer slide" width="620" height="450">
+                      </div>
+
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="imagenes/dos.jpg" alt="segundo slide" width="620" height="450">
+                      </div>
+
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="imagenes/tres.jpg" alt="tercer slide" width="620" height="450">
+                      </div>
+
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="imagenes/cuatro.jpg" alt="cuarto slide" width="620" height="450">
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </div>
+        </div>
+      </div>
+    </div>
+
+<section class="w-50 mx-auto text-center pt-5">
+    <h1 class="p-3 fs-2 border-top border-3">¿Quienes somos?
+    </h1>
+    <p>"Somos un café familiar y donde tenemos como misión
+         brindar un excelente servicio con cafés de alta calidad
+          y postres frescos y deliciosos, en un ambiente 
+         cálido y agradable para toda la familia."
+    </p>
+</section>
+
+<br><br><br>
+
+<section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="imagenes/cl.jpg" alt="Café con leche"   width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Café con leche</h3>
+                <p class="px-4">Prueba nuestro exquisitos Lattes con el cariño que 
+                    solo Kafela puede brindarte.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="imagenes/macci.jpg" alt="Macciatto" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Macciatto</h3>
+                <p class="px-4">Nuestros deliciosos macciattos lo llevaran a un mundo
+                    de sabor y buen gusto.
+                </p>
+            </div>
+        </div>   
+    </div>
     
-</tr>
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="imagenes/moca.jpg" alt="Mocaccinos" width="180" height="160">
 
-<tr height="40%"> <!-- Fila 3-->
-    <td rowspan="2" bgcolor="FF2762">
-        <table width="100%" height="100%" border="1">
-            <tr>
-                <td bgcolor="78EF44">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Moccacino</h3>
+                <p class="px-4">Nada mejor para acompañar un buen libro que nuestros 
+                    cafés achocolatados con el mejor cacao del pais.</p>
+            </div>
+        </div>
 
-                </td>
-               
-            </tr>
-            <tr>
-                <td bgcolor="60CB31">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="imagenes/exp.jpg" alt="Expresso" width="180" height="160" >
 
-                </td>
-               
-            </tr>
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Expresso</h3>
+                <p class="px-4">Si lo que buscas es despertarte, nuestros cremosos
+                    expressos lo ayudaran a dar el cien en su trabajo.
+                </p>
+            </div>
+            
+        </div>   
+    </div>
+</section>
 
-        </table>
-    </td>
-    <td rowspan="2" width="70%" bgcolor="BBBBBB"></td>
-    <td rowspan="2" width="15%" bgcolor="A051FF"></td>
+<section>
+    <div class="mt-5 text-center">
+        <img src="imagenes/equipo.jpg" alt="equipo" width="30%">
+    </div>
+</section>
+<section>
+    <div class="w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Equipo de trabajo</h1>
+        <p class="fs-4">Buscamos a baristas profesionales
+            ofreciondoles un ambiente de trabajo, relajante y
+            con todas la posibilidades de estudio disponible.
+            ¿Qué esperas para unirte a esta familia?
+        </p>
+    </div>
+</section>
+
+<section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <div id="bg-contactos">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </div>
+  
+    <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+        <div class="text-center mb-4" id="titulo-formulario">
+          <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+          <h2>Contactanos</h2>
+          <p class="fs-5">¡Pide tus reservaciones ya!</p>
+        </div>
+  
+       
+  
+        <form action="">     
+              <div class= "mb-3">           
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+              </div>
    
-</tr>
-
-
-
-</table>
+            
+              <div class="mb-3">            
+                <input type="input" class="form-control" id="nombre" placeholder="Cesar">
+              </div>
+        
+  
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+              </div>
+  
+            <div class="mb-3">       
+              <textarea class="form-control" id="msj" rows="4"></textarea>
+            </div>
+  
+            <div class="mb-3">
+              <button type="button" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+            </div>
+        </form>
     
+    </div>
+  </section>
+  
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3  pt-3">Wilson Gutiérrez producciones. &copy; Todos Los Derechos Reservados 2021</p>
+    <a class="navbar-brand" href="#">
+        <img src="imagenes/fb.png" alt="facebook">
+        <span class="text-primary fs-5"></span>
+    </a>
+    <a class="navbar-brand" href="#">
+        <img src="imagenes/tw.png" alt="Twitter">
+        <span class="text-primary fs-5"></span>
+    </a>
+    <a class="navbar-brand" href="#">
+        <img src="imagenes/int.png" alt="Instagram">
+        <span class="text-primary fs-5"></span>
+    </a>
+  </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
